@@ -1,0 +1,694 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{height: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: sticky;
+    top: 0%;
+    z-index: 10000000;
+    background-color: white;
+}
+.leftnavbar{height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     text-align: center;
+     align-content: center;
+    gap: 4rem;
+}
+#leftnav-image{
+    height: 2rem;
+    
+    gap: 2rem;
+}
+#leftnav-image1{
+    height: 1.5rem;
+    
+    gap: 2rem;}
+.rightnavbar{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     text-align: center;
+     align-content: center;
+     gap: 3rem;
+}
+#nav-image{
+    height: 1rem;
+    width: 1rem;
+    margin: 1e;
+}
+.rightnav-class{height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+    position: relative;
+}
+.container-1{
+      height: 25rem;
+    width: 100%;
+    position: absolute;
+    
+    
+}
+.container-1 img{
+    height: 20rem;
+    width: 100%;
+   
+}
+.container-1-part1{
+    position: absolute;
+    font-size: 1.4rem;
+    color: white;
+   top: 4em;
+}
+.container-1-part2{
+    position: absolute;
+    height: 8rem;
+    width: 75rem;
+    display: flex;
+    top : 16rem;
+    right: 10rem;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+     text-align: center;
+     align-items: center;
+     align-content: center;
+   z-index: 100;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border-radius: 50px;
+   gap: 1rem;
+    
+}
+.container-1-part2-left{
+     display: flex;
+     
+     width: 70%;
+     justify-content: space-evenly;
+     text-align: center;
+     align-items: center;
+     align-content: center;
+    
+     height: 4rem;
+        
+     
+    
+}
+.container-1-part2-right
+{
+    display: flex;
+   
+     width: 20%;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     align-content: center;
+     height: 4rem;
+        border: solid 0.1px;
+        border-radius: 20px;
+}
+.left-banner{
+    justify-content: center;
+   border: solid 0.1px;
+    height: 4rem;
+    width: 33%;
+      justify-content: center;
+     text-align: center;
+     align-items: center;
+     align-content: center;
+      
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+     
+    
+    
+}
+.left-banner1{
+    justify-content: center;
+    border: solid 0.1px;
+    height: 4rem;
+    width: 34%;
+      justify-content: center;
+     text-align: center;
+     align-items: center;
+     align-content: center;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+    
+}
+.left-banner2{
+    justify-content: center;
+   border: solid 0.1px;
+    height: 4rem;
+    width: 33%;
+      justify-content: center;
+     text-align: center;
+     align-items: center;
+     align-content: center;
+      
+    
+}
+#on-offimg{
+    height: 2rem;
+    
+}
+.container-1-part3{background-color: rgb(207, 67, 67);
+    height: 3rem;
+    width: 17rem;
+    position: relative;
+    top: 22.5rem;
+    left: 38em;
+    z-index: 100;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.container-1-part3 button{background-color:  rgb(207, 67, 67);
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: antiquewhite;
+    border: none;
+}
+.container-1-part3 img{background-color:  brownn;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    z-index: 1000;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: antiquewhite;
+    border: none;
+}
+.traincontainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    margin-top: 25em;
+}
+.traincontainer1{
+    display: flex;
+    gap: 1em;
+}
+#trainhead{
+    font-size: 1.5em;
+}
+.greytext{
+    color: grey;
+}
+.festive{
+    display: flex;
+    gap: 4px;
+    width: 40%;
+    
+}
+.festive2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+        background-color: white;
+        border-radius: 1em;
+        padding-bottom: 20px;
+
+
+}
+.festive3{
+    width: 30%;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+            border-radius: 1em;
+padding-bottom: 20px;
+}
+.greentext{
+    color: green;
+}
+.qwertyuiop{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    width: 55%;
+    height: 100%;
+    padding: 10px;
+}
+.qwertyuiop2{
+width: 45%;
+display: flex;
+justify-content: end;
+align-items: center;
+align-content: center;
+padding-right: 20px;
+}
+.traincontainer2
+{
+    width: 100%;
+    height: 10em;
+    display: flex;
+    justify-content:start;
+    gap: 2em;
+        background-color: aliceblue;
+
+}
+.trainbutton{
+    width: 40%;
+    height: 20%;
+    background-color: pink;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.trainbutton img{
+    height: 100%;
+}
+.width{
+    width: 100%;
+    background-color: #adf2b3;
+    margin-top: 2em;
+}
+.aasdf{
+    width: 40%;
+    margin: 0 auto;
+   
+    display: flex;
+
+}
+.greentexttext{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5em;
+}
+.greentextimage{
+    width: 40%;
+}
+.trainhead1{
+    font-size: 1.5em;
+}
+.greytext{
+    color: rgb(58, 58, 58);
+}
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    row-gap: 1em;
+    height: 20em;
+    padding-top: 2em;
+    
+}
+.titleforoffers{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.titleforoffersleft{
+    width: 20%;
+    font:600;
+    font-size: 1.5em;
+}
+.titleforoffersright{
+    width: 6%;
+}
+.offerbutton{
+    width: 15%;
+    display: flex;
+    justify-content: start;
+    height: 2.5em;
+    align-items: center;
+    gap: 1em;
+}
+.offerbutton1{
+    background-color: pink;
+    height: 80%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5em;
+}
+.offerbutton2{
+    border: 1px solid grey;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5em;
+     width: 20%;
+     height: 80%;
+}
+.offerbutton3{
+    border: 1px solid grey;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5em;
+     width: 20%;
+     height: 80%;
+}
+.cardcontainer{
+    height: 10em;
+   display: flex;
+   gap: 1em;
+}
+.card1{
+    height: 100%;
+    width: 25%;
+background-image: url("Assets/296x200.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+     border-radius: 1em;
+}
+.cardclass1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: .5em;
+    width: 90%;
+    margin: 0 auto;
+}
+.cardclass2{
+    display: flex;
+   
+    
+    width: 90%;
+    margin: 0 auto;
+}
+.cardtext{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.busbutton{
+    background-color: grey;
+    color: white;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    border-radius: .5em;
+}
+.Redbutton{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    border-radius: .5em;
+    align-items: center;
+}
+.card2{
+    height: 100%;
+    width: 25%;
+background-image: url("Assets/Android-iOS.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+     border-radius: 1em;
+}
+
+.card3{
+    height: 100%;
+    width: 25%;
+background-image: url("Assets/sampleimage1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+     border-radius: 1em;
+}
+.card4{
+    height: 100%;
+    width: 25%;
+background-image: url("Assets/sampleimage1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+     border-radius: 1em;
+}
+.Redbutton1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: .5em;
+    align-items: center;
+}
+.Redbutton img{
+    height: 80%;
+    
+}
+.Redbutton1 img{
+    height: 80%;
+    
+}
+#bodertext{
+    font-size: x-large;
+    font-weight: 600;
+}
+.bodertext1{
+    font-size: x-large;
+    font-weight: 600;
+}
+.newimagescontainer{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+
+}
+.newimages{
+    width: 100%;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       border-radius: 1em;
+    
+}
+.imagediv{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+.newimages img{
+    width: 100%;
+    height: 100%;
+ 
+}
+.testimonial{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: space-evenly;
+    height: 20em;
+  
+}
+.testimonialcardcontainer{
+    display: flex;
+    width:50%;
+    gap: 1em;
+}
+.testimonialcard1container{
+    width: 33%;
+    
+    border: #d6ded6 solid .5px;
+    border-radius: 1em;
+    height: 10em;
+}
+.testimonialcard1{
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 3em;
+}
+.testimonialcard2{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    border: #adf2b3 solid 2px;
+}
+.testimonialcard3{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    border: #adf2b3 solid 2px;
+}
+.getappcontainer{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.getapp{
+display: flex;
+    flex-direction: column;
+  justify-content: space-evenly;
+    
+    height: 12em;
+   
+}
+.getapptitle{
+    font-size: x-large;
+    font-weight: 600;
+}
+.getappcard{
+    display: flex;
+    align-items: center;
+    height: 6em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    justify-content: center;
+    gap: 35em;
+}
+.getappcardleft img{
+    height: 5em;
+}
+.getappcardleft{
+    display: flex;
+    height: 100%;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.getappcardright{
+    width: 15em;
+    
+    display: flex;
+    justify-content: center;
+    height: 1.5em;
+    align-items: center;
+    border-radius: 1em;
+    background-color: #fed9d5;
+}
+.FAQcontainer{
+    width: 80%;
+    margin: 0 auto;
+}
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+details{
+    display: flex;
+    flex-direction: column;
+   
+  
+}
+.faqs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+footer{
+    padding-top: 3em;
+    margin-top: 3em;
+    background-color: rgb(235, 241, 247);
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.mainfooter{
+    display: flex;
+    justify-content: space-around;
+}
+.footerbaby{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.footerbelow{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2em;
+}
+.footerbelowimage{
+    height: 2em;
+}
+.footerbelowimage img{
+    height: 100%;
+}
+.kuchtobhi{
+    width: 80%;
+    margin: 0 auto;
+}
+.finalfooter{
+    display: flex;
+    height: 3em;
+    
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.finalfooterright{
+height: 100%;
+display: flex;
+gap: 1em;
+}
+.finalfooterright img{
+height: 80%;
+}
+.finalfooterleft{
+    display: flex;
+    align-items: center;
+}
+.onlinebus{
+    width: 80%;
+    margin: 0 auto;
+}
+.onlinebushead{
+    font-size: 2em;
+    font-weight: 600;
+}
+ul{
+    width: 90%;
+    margin: 0 auto;
+}
