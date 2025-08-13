@@ -165,10 +165,10 @@
 }
 .container-1-part3{background-color: rgb(207, 67, 67);
     height: 3rem;
-    width: 17rem;
+    width: 12rem;
     position: relative;
     top: 22.5rem;
-    left: 38em;
+    left: 42em;
     z-index: 100;
     justify-content: center;
     text-align: center;
@@ -179,6 +179,7 @@
 .container-1-part3 button{background-color:  rgb(207, 67, 67);
     top: 0px;
     position: absolute;
+    left: 30px;
     height: 100%;
     width: 100%;
     z-index: 100;
@@ -191,10 +192,11 @@
     border: none;
 }
 .container-1-part3 img{background-color:  brownn;
-    top: 0px;
+    top: 11px;
     position: absolute;
-    height: 100%;
-    width: 30%;
+    left: 10px;
+    height: 50%;
+    width: 15%;
     z-index: 1000;
     justify-content: center;
     text-align: center;
